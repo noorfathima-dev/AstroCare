@@ -1,6 +1,6 @@
 package com.astrocare.repository;
 
-import com.astrocare.domain.entity.VitalSign;
+import com.astrocare.entity.VitalSign;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

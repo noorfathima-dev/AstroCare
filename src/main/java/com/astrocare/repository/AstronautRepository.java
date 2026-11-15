@@ -1,7 +1,7 @@
 package com.astrocare.repository;
 
-import com.astrocare.domain.entity.Astronaut;
-import com.astrocare.domain.enums.AstronautStatus;
+import com.astrocare.entity.Astronaut;
+import com.astrocare.entity.AstronautStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

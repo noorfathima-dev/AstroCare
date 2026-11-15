@@ -1,0 +1,2 @@
+package com.astrocare.controller; import com.astrocare.dto.*; import com.astrocare.service.AstronautService; import lombok.RequiredArgsConstructor; import org.springframework.security.access.prepost.PreAuthorize; import org.springframework.web.bind.annotation.*; import java.util.*;
+@RestController @RequestMapping("/api/astronauts") @RequiredArgsConstructor public class AstronautController {private final AstronautService service; @GetMapping @PreAuthorize("hasRole('FLIGHT_SURGEON')") public List<AstronautResponse> list(){return service.list();}}

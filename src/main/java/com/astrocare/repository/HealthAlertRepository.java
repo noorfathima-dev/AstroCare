@@ -1,8 +1,8 @@
 package com.astrocare.repository;
 
-import com.astrocare.domain.entity.HealthAlert;
-import com.astrocare.domain.enums.AlertStatus;
-import com.astrocare.domain.enums.Severity;
+import com.astrocare.entity.HealthAlert;
+import com.astrocare.entity.AlertStatus;
+import com.astrocare.entity.Severity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

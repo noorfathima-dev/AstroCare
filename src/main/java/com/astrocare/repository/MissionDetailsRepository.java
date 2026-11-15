@@ -1,7 +1,7 @@
 package com.astrocare.repository;
 
-import com.astrocare.domain.entity.MissionDetails;
-import com.astrocare.domain.enums.MissionStatus;
+import com.astrocare.entity.MissionDetails;
+import com.astrocare.entity.MissionStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
