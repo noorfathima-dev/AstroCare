@@ -4,10 +4,16 @@ Production-oriented Spring Boot 3 backend for the AstroCare astronaut health mon
 
 ## Run
 
-Set `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`, and a strong `JWT_SECRET` (at least 32 characters). The defaults target `astrocare_db` on localhost and the application listens on port `8081`. Run:
+Set `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`, and a strong `JWT_SECRET` (at least 32 characters). The defaults target `astrocare_db` on localhost and the application listens on port `8081`. Run through npm:
 
 ```bash
-mvn clean package
+npm run build
+npm start
+```
+
+The npm scripts delegate to the Java/Maven toolchain required by Spring Boot. To run the packaged JAR directly:
+
+```bash
 java -jar target/astrocare-0.1.0.jar
 ```
 

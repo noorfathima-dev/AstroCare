@@ -1,0 +1,16 @@
+{
+  "name": "astrocare-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AstroCare astronaut health monitoring backend",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "mvn -q -DskipTests package",
+    "start": "mvn spring-boot:run",
+    "test": "mvn test",
+    "clean": "mvn clean",
+    "package": "mvn -q -DskipTests package"
+  }
+}
