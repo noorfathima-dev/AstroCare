@@ -1,7 +1,7 @@
 package com.astrocare.repository;
 
-import com.astrocare.domain.entity.MedicalHistory;
-import com.astrocare.domain.enums.MedicalRecordType;
+import com.astrocare.entity.MedicalHistory;
+import com.astrocare.entity.MedicalRecordType;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

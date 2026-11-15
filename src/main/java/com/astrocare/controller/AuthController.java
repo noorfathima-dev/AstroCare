@@ -1,0 +1,2 @@
+package com.astrocare.controller; import com.astrocare.dto.*; import com.astrocare.security.AuthService; import jakarta.validation.Valid; import lombok.RequiredArgsConstructor; import org.springframework.web.bind.annotation.*;
+@RestController @RequestMapping("/api/auth") @RequiredArgsConstructor public class AuthController {private final AuthService auth; @PostMapping("/login") public LoginResponse login(@Valid @RequestBody LoginRequest r){return auth.login(r);}}

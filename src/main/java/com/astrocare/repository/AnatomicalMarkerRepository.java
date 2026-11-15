@@ -1,7 +1,7 @@
 package com.astrocare.repository;
 
-import com.astrocare.domain.entity.AnatomicalMarker;
-import com.astrocare.domain.enums.BodyZone;
+import com.astrocare.entity.AnatomicalMarker;
+import com.astrocare.entity.BodyZone;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

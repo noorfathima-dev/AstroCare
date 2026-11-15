@@ -1,7 +1,7 @@
 package com.astrocare.repository;
 
-import com.astrocare.domain.entity.EmergencyEvent;
-import com.astrocare.domain.enums.EmergencyStatus;
+import com.astrocare.entity.EmergencyEvent;
+import com.astrocare.entity.EmergencyStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.astrocare.repository;
 
-import com.astrocare.domain.entity.Role;
-import com.astrocare.domain.enums.RoleName;
+import com.astrocare.entity.Role;
+import com.astrocare.entity.RoleName;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
